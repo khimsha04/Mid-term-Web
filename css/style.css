@@ -9,6 +9,7 @@
 a{
     text-decoration: none;
     cursor: pointer;
+    color: black;
 }
 ul,li{
     list-style: none;
@@ -46,7 +47,7 @@ ul,li{
     flex-wrap: wrap;
 }
 .container-header{
-    max-width: 1080px;
+    max-width: 1050px;
     width: 100%;
     margin: 0 auto;
     margin-top: 30px;
@@ -114,7 +115,7 @@ ul,li{
     height: 860px;
     width: 240px;
     position: absolute;
-    
+    font-size: 14px;
     
     background-color: #222222 ;
     
@@ -132,7 +133,8 @@ ul,li{
       width: 120px;
   }
 .sidebar-button{
-    margin-top: 50px;
+    display: flex;
+    margin-top: 20px;
     width: 200px;
     height: 40px;
     border-radius: 12px;
@@ -160,37 +162,43 @@ ul,li{
     color: white;
     align-items: center;
 }
+.photo-width{
+    width: 30px;
+}
 .following{
     align-items: center;
     color: white;
-    margin-top: 40px;
+    margin-top: 5px;
     font-size: 14px;
-    /* margin-left: 20px; */
+    margin-left: 20px;
 }
 .sajon-mini{
     align-items: center;
     color: white;
+    margin-left: 0;
+    width: 30px;
 }
 .tran-mau{
     align-items: center;
     color: white;
-    /* margin-left: 11px; */
+    
 }
 .ghai-pradita{
     align-items: center;
     color: white;
     margin-top: 15px;
-    /* margin-left: 10px; */
 }
 .david-kovalev{
     align-items: center;
     color: white;
     margin-top: 5px;
-    /* margin-left: -8px; */
+    margin-left: -17px;
 }
 .ryan-putnam{
     align-items: center;
     color: white;
+    margin-left: -19px;
+    margin-top: -14px;
    
 }
 .load-more-sidebar{
@@ -323,9 +331,12 @@ ul,li{
     margin-right: 250px;
     font-family: 'AvenirBook';
     flex-wrap: wrap;
+    /* color: #222222; */
 }
 li{
     margin-left: 40px;
+    color: #222222;
+
 }
 .filter{
     width: 100px;
@@ -363,4 +374,17 @@ li{
 .info-span2{
     color:black;
     font-family: 'AvenirBook';
+}
+/* section1 */
+.images{
+    max-width: 250px;
+    width: 100%;
+    margin: 0 auto;
+}
+.section1-p{
+   max-width: 250px;
+   width: 100%;
+   margin: 0 auto;
+   margin-left: 10px;
+    
 }
