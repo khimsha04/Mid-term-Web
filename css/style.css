@@ -10,6 +10,16 @@ a{
     text-decoration: none;
     cursor: pointer;
     color: black;
+    font-family: 'AvenirBook';
+}
+p{
+    font-family: 'AvenirBook';
+}
+span{
+    font-family: 'AvenirBook';
+}
+ul,li,h1,h2,h3,h4,h5,h6{
+    font-family: 'AvenirBook';
 }
 .margintop35px{
     margin-top: 35px;
@@ -20,17 +30,31 @@ ul,li{
 .padding{
    padding: 15px;
 }
+.padding20px{
+    padding: 20px;
+}
 .margin-right10px{
     margin-right: 10px;
 }
+.margin-bottom10px{
+    margin-bottom: 10px;
+}
+
 .margin-right20px{
     margin-right: 20px;
 }
-.margin-left20px{
-    margin-left: 20px;
+.margin-left5px{
+    margin-left: 5px;
+}
+.margin-left30px{
+    margin-left: 30px;
 }
 .d-flex{
     display: flex;
+}
+.j-flex-around{
+    justify-content: space-around;
+    align-items: center;
 }
 .j-flex{
     justify-content: space-between;
@@ -95,7 +119,7 @@ ul,li{
     margin: 0 auto;
     margin-left: 300px;
     height: 40px;
-    margin-bottom: 10px;
+    margin-top: 75px;
     
 }
 
@@ -436,7 +460,7 @@ li{
     padding: 67px;
 }
 .section2-photo{
-    width: 100px;
+    width: 80px;
 }
 .section2-p1{
     width: 80px;
@@ -463,4 +487,40 @@ li{
 .section2-p2{
     width: 60px;
     margin-left: 20px;
+}
+.section2-button4{
+    display: block;
+    width: 100px;
+    height: 40px;
+    background-color: #D8D8D8;
+    color: #222222;
+    border: none;
+    border-radius: 12px;
+    margin-top: 15px;
+    
+}
+.section2-p4{
+    width: 90px;
+    margin-left: 25px;
+}
+.section2-p5{
+    margin-left: 30px;
+    margin-bottom: 22px;
+}
+.section2-p6{
+    width: 90px;
+    margin-left: 25px;
+}
+/* footer */
+/* .footer-parent{
+    display: grid;
+    grid-template-columns: 1fr  1fr  1fr  1fr;
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap: 10px;
+} */
+.paddingcompany{
+    padding-top: 80px;
+}
+.paddingfordesigners{
+    padding-top: 40px;
 }
