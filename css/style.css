@@ -233,12 +233,9 @@ ul,li{
 }
 
  
-  .section-2{
-      background-color: yellow;
-  }
-  footer{
-      background-color: brown;
-  }
+ button{
+     cursor: pointer;
+ }
 
   /* header */
   .header-div{
@@ -523,4 +520,13 @@ li{
 }
 .paddingfordesigners{
     padding-top: 40px;
+}
+/* section3 */
+.section-3{
+    max-width: 1063px;
+    height: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 300px;
+    margin-top: -110px;
 }
