@@ -162,15 +162,23 @@ ul,li{
 .sidebar-button{
     display: flex;
     margin-top: 20px;
-    width: 200px;
-    height: 40px;
+    
     border-radius: 12px;
     border: none;
-    background-color: #FF2288;
+  
+    
     align-items: center;
-    padding-left: 10px;
+    
     color: white;
     cursor: pointer;
+}
+.sidebar-hover{
+    cursor: pointer;
+}
+.sidebar-hover:hover{
+
+    border-radius: 12px;
+    background-color: #FF2288;
 }
 .explore {
     color: white;
@@ -285,11 +293,16 @@ ul,li{
     border-radius: 50%;
 
 }
-.header-button{
-    width: 129px;
-    height: 56px;
+.header-hover:hover{
     border-radius: 12px;
     background-color: #FF2288;
+    color: white;
+    
+}
+.header-button{
+   
+    border-radius: 12px;
+    color: #FF2288;
     border: none;
     font-family: 'AvenirBook';
     font-size: 16px;
@@ -346,6 +359,14 @@ ul,li{
 	padding-right: 80px;
 }
 /* nav */
+
+.li:hover{
+    border-radius: 12px;
+    background-color: #D8D8D8;
+   
+    
+    
+}
 .nav-ul{
     justify-content: space-between;
     align-items: center;
@@ -554,4 +575,7 @@ tr{
 }
 .colorpink{
     color: #FF2288;
+}
+.all-others:hover{
+    color: gray;
 }
