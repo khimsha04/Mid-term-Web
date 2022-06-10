@@ -284,12 +284,24 @@ ul,li{
 
 }
 .after::after{
-    content: '';
+    content: "";
     position: absolute;
-    background-color: red;
-    display: block;
+    right: 78px;
+    top: 46px;
     width: 10px;
     height: 10px;
+    background-color: #ff2288;
+    border-radius: 50%;
+
+}
+.after2{
+    content: "";
+    position: absolute;
+    right: 78px;
+    top: 46px;
+    width: 10px;
+    height: 10px;
+    background-color: #ff2288;
     border-radius: 50%;
 
 }
