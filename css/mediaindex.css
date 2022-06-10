@@ -1,0 +1,49 @@
+@media (max-width:1024px)  {
+
+    .main-container{
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    .container-header{
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        padding: 0;
+        align-items: center;
+    }
+    .search_box{
+        max-width: 200px;
+    }
+
+    .sidebar{
+        display: none;
+    }
+ 
+    
+    .search_wrap{
+        margin-bottom: 20px;
+        height: 56px;
+    }
+    .section2{
+        width: 100%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        margin: 0 auto;
+    }
+    .nav{
+        margin: 0 auto;
+    }
+    .section1{
+        margin: 0 auto;
+    }
+    .container-footer{
+        margin: 0 auto;
+    }
+    
+}
