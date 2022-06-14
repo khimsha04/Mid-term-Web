@@ -16,7 +16,7 @@
     .container-header{
         max-width: 300px;
         width: 100%;
-        margin: 0;
+        
         flex-direction: column;
         justify-content: center;
         height: auto;
@@ -40,7 +40,7 @@
         width: 100%;
         overflow-x: scroll;
         overflow-y: hidden;
-        margin: 0;
+       
         
     }
     .section-2-media{
@@ -51,13 +51,13 @@
     margin-top: 300px;
     }
     .nav{
-        margin: 0;
+        
         max-width: 700px;
         /* margin-left: 350px; */
         
     }
     .section-1{
-    margin: 0;
+    
         
         /* grid-template-columns: repeat(2, 1fr); */
     }
